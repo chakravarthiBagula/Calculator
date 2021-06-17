@@ -1,0 +1,52 @@
+body{
+     background-color:#CCCCCC;
+ } 
+.lab{
+    margin-top:160px;
+    padding-bottom:-3px;
+} 
+.lab label{
+
+      border:2px solid blue;
+      background-color:#300050;
+      color:#ffffff;
+      padding:20px;
+      border-radius:12px;
+      text-align:center;
+}
+table{
+    font-family: 'Lato', sans-serif;
+    width: 20%;
+    margin: 50px auto;
+    border-left: none;
+    border-right: none;
+    border-top: 20px solid rgb(70, 69, 69);
+    border-bottom: 5px solid rgb(70, 69, 69);
+    border-radius:7px;
+    border-spacing:0;
+}
+td{
+    border-style: none;
+    background-color: rgb(60,70,80); 
+}
+td input
+    {
+    padding:25px 85px 25px 85px;
+    background-color:#300050;
+    border:1px solid blue;
+    color:#ffffff;
+}
+td input[type="button"]
+    {
+    padding:25px 35px;
+}
+td input[type="button"]:hover
+    {
+    background-color:rgb(120, 92, 97);
+    color:rgb(9, 9, 78);
+}
+td input[type="text"]:hover
+    {
+    background-color:rgb(182, 174, 208);
+    color:rgb(0, 0, 0);
+}
